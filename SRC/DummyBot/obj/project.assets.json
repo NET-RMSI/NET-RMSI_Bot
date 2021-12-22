@@ -511,11 +511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peter\\Documents\\GitHub\\DummyBotSRC\\SRC\\DummyBot\\DummyBot.csproj",
+      "projectUniqueName": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj",
       "projectName": "DummyBot",
-      "projectPath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBotSRC\\SRC\\DummyBot\\DummyBot.csproj",
+      "projectPath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj",
       "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBotSRC\\SRC\\DummyBot\\obj\\",
+      "outputPath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
