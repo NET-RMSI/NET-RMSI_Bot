@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oPAMhSsyH9W0rngq30D0pmi7627BhGv5xe98mKfG9NsCkWLn3glI9I2wybXmNU2IGIVDc6tT4lWSTnROFS7nMw==",
+  "dgSpecHash": "5os2OrIZEM8fc0to0vpgXG1I9cGoXdJS35D3cE4DjtbzrknyOoMMQnLb1MJ4YNpQck+4xDgV+IXvGAEemmYE0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\peter\\.nuget\\packages\\discord.net.webhook\\3.0.0\\discord.net.webhook.3.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\discord.net.websocket\\3.0.0\\discord.net.websocket.3.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\system.interactive.async\\5.0.0\\system.interactive.async.5.0.0.nupkg.sha512",

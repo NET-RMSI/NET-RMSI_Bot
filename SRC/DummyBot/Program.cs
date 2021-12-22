@@ -32,6 +32,8 @@ namespace DummyBot
 
 
             var token = File.ReadAllText("Token.txt");
+            //var token = "";
+
 
 
 
@@ -73,7 +75,7 @@ namespace DummyBot
             {
                 ServerStatusCheck();
 
-                message.Channel.SendMessageAsync(message.Author.Mention + "Pinging Servers... " + "\n" + serverstat_delta1_jellyfin);
+                message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Servers... " + "\n" + serverstat_delta1_jellyfin);
 
 
 
