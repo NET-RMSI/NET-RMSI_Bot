@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "1qUnoxVY0I5q+k2sfb8CRTjDS+ncauhk+BTa7Byki+SrUv4zCKQn1riReKdn1rFMnv2csIrEfpzvEhgLdE4KgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBotSRC\\SRC\\DummyBot\\DummyBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\peter\\.nuget\\packages\\discord.net\\3.0.0\\discord.net.3.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\discord.net.commands\\3.0.0\\discord.net.commands.3.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\discord.net.core\\3.0.0\\discord.net.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\discord.net.interactions\\3.0.0\\discord.net.interactions.3.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\discord.net.rest\\3.0.0\\discord.net.rest.3.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\discord.net.webhook\\3.0.0\\discord.net.webhook.3.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\discord.net.websocket\\3.0.0\\discord.net.websocket.3.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\system.interactive.async\\5.0.0\\system.interactive.async.5.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\system.linq.async\\5.0.0\\system.linq.async.5.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
