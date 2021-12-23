@@ -73,34 +73,22 @@ namespace DummyBot
 
             if (command.Equals("jellyfin"))
             {
-                ServerStatusCheck();
+                Serverstatus.Serverping_jellyfin();
+                message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_delta1_jellyfin);
 
-                message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Servers... " + "\n" + serverstat_delta1_jellyfin);
-
-
-
+            }
+            
+            if (command.Equals("minecraftjava-personalsrv"))
+            {
+                Serverstatus.Serverping_minecraftjava_personalsrv();
+                message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_delta1_minecraftjava_personalsrv);
             }
 
 
             return Task.CompletedTask;
         }
 
-        public void ServerStatusCheck()
-        {
-            TcpClient tcpClient = new TcpClient();
-
-            try
-            {
-                tcpClient.Connect("86.14.65.74", 8096);
-
-                serverstat_delta1_jellyfin = "Jellyfin@Deltaserver1: Online";
-
-            }
-            catch (Exception)
-            {
-                serverstat_delta1_jellyfin = "Jellyfin@Deltaserver1: Offline";
-            }
-        }
+       
     }
 }
 
