@@ -31,8 +31,8 @@ namespace DummyBot
             client.Log += Log;
 
 
-            var token = File.ReadAllText("Token.txt");
-            //var token = "";
+            //var token = File.ReadAllText("Token.txt");
+            var token = "";
 
 
 
