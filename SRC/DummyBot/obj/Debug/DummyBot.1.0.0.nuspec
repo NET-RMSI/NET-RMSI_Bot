@@ -4,7 +4,6 @@
     <id>DummyBot</id>
     <version>1.0.0</version>
     <authors>DummyBot</authors>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETCoreApp3.1">
@@ -14,6 +13,7 @@
         <dependency id="Discord.Net.Rest" version="3.0.0" exclude="Build,Analyzers" />
         <dependency id="Discord.Net.WebSocket" version="3.0.0" exclude="Build,Analyzers" />
         <dependency id="Discord.Net.Webhook" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" version="1.10.9" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

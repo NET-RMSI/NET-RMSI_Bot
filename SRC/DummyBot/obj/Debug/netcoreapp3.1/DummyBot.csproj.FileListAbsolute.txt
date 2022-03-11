@@ -44,7 +44,6 @@ C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\bin\Debug\netcoreapp3.1\Sy
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\bin\Debug\netcoreapp3.1\System.Linq.Async.dll
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\bin\Debug\netcoreapp3.1\System.Reactive.dll
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\bin\Debug\netcoreapp3.1\System.Reactive.xml
-C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.csprojAssemblyReference.cache
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.AssemblyInfoInputs.cache
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.AssemblyInfo.cs
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.csproj.CoreCompileInputs.cache
@@ -52,3 +51,5 @@ C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\Du
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.dll
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.pdb
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.genruntimeconfig.cache
+C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.GeneratedMSBuildEditorConfig.editorconfig

@@ -74,8 +74,14 @@ namespace DummyBot
             if (command.Equals("jellyfin"))
             {
                 Serverstatus.Serverping_jellyfin();
-                message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_delta1_jellyfin);
 
+                for(int x = 0; x <= Serverstatus.serverstat_flarenet_nextcloud_advstats.Length; x++)
+                {
+                    message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_flarenet_nextcloud);
+                    message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_flarenet_nextcloud_advstats[x]);
+
+                }
+                
             }
             
             if (command.Equals("minecraftjava-personalsrv"))
