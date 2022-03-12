@@ -51,5 +51,4 @@ C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\Du
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.dll
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.pdb
 C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.genruntimeconfig.cache
-C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.csproj.AssemblyReference.cache
-C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\Documents\GitHub\DummyBot\SRC\DummyBot\obj\Debug\netcoreapp3.1\DummyBot.csprojAssemblyReference.cache

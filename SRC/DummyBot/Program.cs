@@ -8,6 +8,8 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 
 
@@ -16,10 +18,6 @@ namespace DummyBot
 {
     class Program
     {
-        public string serverstat_delta1_bedrock;
-        public string serverstat_delta1_jellyfin;
-
-
         public static void Main(string[] args)
         => new Program().MainAsync().GetAwaiter().GetResult();
 
@@ -32,7 +30,7 @@ namespace DummyBot
 
 
             //var token = File.ReadAllText("Token.txt");
-            var token = "";
+            var token = "NTExMTk5MzU3MjA3NTc2NTc4.W-hJgA.Bcs2Jf8Vzgqf_zvJNS0gaMROgHk";
 
 
 
@@ -71,19 +69,16 @@ namespace DummyBot
             command = message.Content.Substring(1, lengthOfCommand - 1).ToLower();
 
 
-            if (command.Equals("jellyfin"))
+            if (command.Equals("nextcloud"))
             {
-                Serverstatus.Serverping_jellyfin();
+                Serverstatus.Serverping_Nextcloud();
 
-                for(int x = 0; x <= Serverstatus.serverstat_flarenet_nextcloud_advstats.Length; x++)
-                {
-                    message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_flarenet_nextcloud);
-                    message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_flarenet_nextcloud_advstats[x]);
+                message.Channel.SendMessageAsync(message.Author.Mention + " Pinging Server... " + "\n" + Serverstatus.serverstat_flarenet_nextcloud);
+                message.Channel.SendMessageAsync(Serverstatus.serverstat_flarenet_nextcloud_advstats);
 
-                }
-                
+
             }
-            
+
             if (command.Equals("minecraftjava-personalsrv"))
             {
                 Serverstatus.Serverping_minecraftjava_personalsrv();

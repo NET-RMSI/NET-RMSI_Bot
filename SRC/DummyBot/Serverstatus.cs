@@ -8,6 +8,8 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace DummyBot
 {
@@ -15,10 +17,10 @@ namespace DummyBot
     {
         public static int pingtimeout = 60000;
         public static string serverstat_flarenet_nextcloud;
-        public static string[] serverstat_flarenet_nextcloud_advstats;
+        public static string serverstat_flarenet_nextcloud_advstats;
         public static string serverstat_delta1_minecraftjava_personalsrv;
 
-        public static void Serverping_jellyfin()
+        public static void Serverping_Nextcloud()
         {
             Ping nextcloudstatus = new Ping();
             PingReply nextcloudreply = nextcloudstatus.Send("nextcloud.flarenet.co.uk", pingtimeout);
@@ -27,13 +29,11 @@ namespace DummyBot
             {
                 serverstat_flarenet_nextcloud = "> https://nextcloud.flarenet.co.uk - Online";
 
-                
-                
-                serverstat_flarenet_nextcloud_advstats[0] = "Address: " + nextcloudreply.Address.ToString();
-                serverstat_flarenet_nextcloud_advstats[1] = "Buffer Size: " + nextcloudreply.Buffer.ToString();
-                serverstat_flarenet_nextcloud_advstats[2] = "RoundTrip time: " + nextcloudreply.RoundtripTime.ToString();
-                serverstat_flarenet_nextcloud_advstats[3] = "Time to live: " + nextcloudreply.Options.Ttl.ToString();
-                
+                serverstat_flarenet_nextcloud_advstats = @"Address: " + nextcloudreply.Address.ToString() + Environment.NewLine
+                                                            + @"Buffer Size: " + nextcloudreply.Buffer.ToString() + Environment.NewLine
+                                                            + @"RoundTrip time: " + nextcloudreply.RoundtripTime.ToString() + Environment.NewLine
+                                                            + @"Time to live: " + nextcloudreply.Options.Ttl.ToString();
+
 
 
             }
