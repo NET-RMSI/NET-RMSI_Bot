@@ -8,8 +8,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
-using System.Text.Json;
-using System.Text.Json.Serialization;
+
 
 
 
@@ -31,7 +30,7 @@ namespace DummyBot
 
             //var token = File.ReadAllText("Token.txt");
             var token = "NTExMTk5MzU3MjA3NTc2NTc4.W-hJgA.Bcs2Jf8Vzgqf_zvJNS0gaMROgHk";
-
+            JsonSerialization.Config_Json();
 
 
 
