@@ -36,7 +36,7 @@ namespace DummyBot
 
 
 
-            await client.LoginAsync(TokenType.Bot, JsonSerialization.test);
+            await client.LoginAsync(TokenType.Bot, JsonSerialization.token);
             await client.StartAsync();
 
             // Block this task until the program is closed.

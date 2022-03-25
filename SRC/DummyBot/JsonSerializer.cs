@@ -8,16 +8,14 @@ using Newtonsoft.Json;
 
 namespace DummyBot
 {
-    public class discordcfg
-    {
-        public string discord_token { get; set; }
-    }
+   
     public class JsonSerialization
     {
 
         public static string token;
         public static string jsonconfigfilename = "Config.json";
-        public static string test;
+        
+        
         public static async void Config_Json()
         {
             if(File.Exists(jsonconfigfilename))
@@ -34,9 +32,12 @@ namespace DummyBot
                     {
                           if(read_json_file_jr.TokenType != JsonToken.StartObject)
                         {
-                            Newtonsoft.Json.JsonConvert.DeserializeObject<discordcfg>(test);
-                            Console.WriteLine(test);
+                            token = read_json_file_jr.ReadAsString();
+
+                            /* Testing
+                            Console.WriteLine(token);
                             Console.ReadKey();
+                            */
                         }
                     }
                 }
@@ -45,9 +46,19 @@ namespace DummyBot
             else
             {
                 using FileStream create_json_file_fs = File.Create(jsonconfigfilename);
-                await System.Text.Json.JsonSerializer.SerializeAsync(create_json_file_fs, "Token: ");
+                using StreamWriter create_json_file_sw = new StreamWriter(create_json_file_fs);
+                using JsonWriter create_json_file_jw = new JsonTextWriter(create_json_file_sw);
 
-                await create_json_file_fs.DisposeAsync();
+                create_json_file_jw.Formatting = Formatting.Indented;
+
+                create_json_file_jw.WriteStartObject();
+                create_json_file_jw.WritePropertyName("Token");
+                create_json_file_jw.WriteEndObject();
+                
+                //Legacy - 25/03/2022 
+                //await System.Text.Json.JsonSerializer.SerializeAsync(create_json_file_fs, "Token: ");
+
+                //await create_json_file_fs.DisposeAsync();
             }
                
            
