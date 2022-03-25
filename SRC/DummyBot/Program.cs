@@ -27,15 +27,16 @@ namespace DummyBot
             client.MessageReceived += CommandHandler;
             client.Log += Log;
 
-
-            //var token = File.ReadAllText("Token.txt");
-            var token = "NTExMTk5MzU3MjA3NTc2NTc4.W-hJgA.Bcs2Jf8Vzgqf_zvJNS0gaMROgHk";
             JsonSerialization.Config_Json();
 
+            //var token = File.ReadAllText("Token.txt");
+            //var token = "NTExMTk5MzU3MjA3NTc2NTc4.W-hJgA.Bcs2Jf8Vzgqf_zvJNS0gaMROgHk";
+            
 
 
 
-            await client.LoginAsync(TokenType.Bot, token);
+
+            await client.LoginAsync(TokenType.Bot, JsonSerialization.test);
             await client.StartAsync();
 
             // Block this task until the program is closed.

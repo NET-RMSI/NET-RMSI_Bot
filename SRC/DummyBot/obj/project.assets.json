@@ -1281,6 +1281,7 @@
       "Discord.Net.WebSocket >= 3.0.0",
       "Discord.Net.Webhook >= 3.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "Newtonsoft.Json >= 13.0.1",
       "System.IO.FileSystem >= 4.3.0",
       "System.Text.Json >= 6.0.2"
     ]
@@ -1356,6 +1357,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.10.9, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           },
           "System.IO.FileSystem": {
             "target": "Package",
