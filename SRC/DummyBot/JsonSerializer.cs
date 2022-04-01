@@ -11,8 +11,9 @@ namespace DummyBot
    
     public class JsonSerialization
     {
-
+        public static string cmd;
         public static string token;
+        public static string str_json_output;
         public static string jsonconfigfilename = "Config.json";
         
         
@@ -32,7 +33,17 @@ namespace DummyBot
                     {
                           if(read_json_file_jr.TokenType != JsonToken.StartObject)
                         {
-                            token = read_json_file_jr.ReadAsString();
+                            str_json_output = read_json_file_jr.ReadAsString();
+                            //Console.WriteLine(str_json_output);
+                            //Console.ReadKey();
+                            //Console.WriteLine(str_json_output.Length);
+                            //Console.WriteLine(str_json_output);
+                            //Console.ReadKey();
+                            //Console.WriteLine(token);
+                            //Console.ReadKey();
+
+                            
+                            
 
                             /* Testing
                             Console.WriteLine(token);
@@ -53,8 +64,20 @@ namespace DummyBot
 
                 create_json_file_jw.WriteStartObject();
                 create_json_file_jw.WritePropertyName("Token");
+                create_json_file_jw.WriteValue("Enter Token here");
                 create_json_file_jw.WriteEndObject();
-                
+
+                if(File.Exists(jsonconfigfilename))
+                {
+                    Console.WriteLine("Config.json was created");
+                    Console.WriteLine("Press a key to exit");
+                    Console.ReadKey();
+
+                    Environment.Exit(0);
+                }
+
+
+
                 //Legacy - 25/03/2022 
                 //await System.Text.Json.JsonSerializer.SerializeAsync(create_json_file_fs, "Token: ");
 

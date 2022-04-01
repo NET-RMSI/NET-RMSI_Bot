@@ -51,7 +51,7 @@ namespace DummyBot
 
             try
             {
-                tcpClient.Connect("86.14.65.74", 8096);
+                tcpClient.Connect("00.00.00.00", 8096);
 
                 serverstat_delta1_jellyfin = "Jellyfin@Deltaserver1: Online";
 
@@ -70,7 +70,7 @@ namespace DummyBot
 
             try
             {
-                tcpClient.Connect("86.14.65.74", 25565);
+                tcpClient.Connect("00.00.00.00", 25565);
 
                 serverstat_delta1_minecraftjava_personalsrv = "Minecraft-personalsrv@Deltaserver1: Online";
 
