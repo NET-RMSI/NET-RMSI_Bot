@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj": {}
+    "C:\\Users\\peter\\Documents\\GitHub\\NET-RMSI_Bot\\SRC\\NET-RMSI_Bot\\NET-RMSI_Bot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj": {
+    "C:\\Users\\peter\\Documents\\GitHub\\NET-RMSI_Bot\\SRC\\NET-RMSI_Bot\\NET-RMSI_Bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj",
-        "projectName": "DummyBot",
-        "projectPath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj",
+        "projectUniqueName": "C:\\Users\\peter\\Documents\\GitHub\\NET-RMSI_Bot\\SRC\\NET-RMSI_Bot\\NET-RMSI_Bot.csproj",
+        "projectName": "NET-RMSI_Bot",
+        "projectPath": "C:\\Users\\peter\\Documents\\GitHub\\NET-RMSI_Bot\\SRC\\NET-RMSI_Bot\\NET-RMSI_Bot.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\obj\\",
+        "outputPath": "C:\\Users\\peter\\Documents\\GitHub\\NET-RMSI_Bot\\SRC\\NET-RMSI_Bot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

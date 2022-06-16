@@ -11,7 +11,7 @@ using System.Net.NetworkInformation;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace DummyBot
+namespace NETRMSI_Bot
 {
     public class Serverstatus
     {

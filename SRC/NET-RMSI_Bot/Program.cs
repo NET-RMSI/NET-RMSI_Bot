@@ -13,7 +13,7 @@ using System.Net.NetworkInformation;
 
 
 
-namespace DummyBot
+namespace NETRMSI_Bot
 {
     class Program
     {

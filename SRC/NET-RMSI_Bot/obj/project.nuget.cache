@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uzj2H6YB0komlVyHUCcmJzlPAu7h6h5Le/4Cw6fTsQQQOCMemgdc/U1Pi48QqJRfY6Xa/tH/ZqV8j/k3YJTdvQ==",
+  "dgSpecHash": "0fPuF2e7iOo1b21J6QU3FiE/LQP0O3eQZwC+TJT/BxMezLiEjfKVYSzg3Dkqyv38fuPCkSTrG20uzuQdLfqb+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\peter\\Documents\\GitHub\\DummyBot\\SRC\\DummyBot\\DummyBot.csproj",
+  "projectFilePath": "C:\\Users\\peter\\Documents\\GitHub\\NET-RMSI_Bot\\SRC\\NET-RMSI_Bot\\NET-RMSI_Bot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\peter\\.nuget\\packages\\discord.net\\3.0.0\\discord.net.3.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\discord.net.commands\\3.0.0\\discord.net.commands.3.0.0.nupkg.sha512",
