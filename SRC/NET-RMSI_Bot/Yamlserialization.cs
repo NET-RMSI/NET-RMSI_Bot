@@ -6,6 +6,8 @@ using YamlDotNet.Serialization;
 
 
 
+
+
 namespace NETRMSI_Bot
 {
 
@@ -31,14 +33,28 @@ namespace NETRMSI_Bot
 
                 var botconfig = new Yamlconfig.botconfig
                 {
-                    token = "",
+                    token = "Test",
                 };
 
                 var server_0 = new Yamlconfig.server_0
                 {
-                    name = "",
-                    ipaddress = "",
+                    name = "Test",
+                    ipaddress = "Test",
                 };
+
+                
+
+                var serializer = new SerializerBuilder().Build();
+                var yaml = serializer.Serialize(botconfig);
+
+                using (StreamWriter sw = new StreamWriter(yamlconfigfilename))
+                {
+                    sw.WriteLine(yaml);
+                }
+                
+                
+                
+                
 
                 if (File.Exists(yamlconfigfilename))
                 {
