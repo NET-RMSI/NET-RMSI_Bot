@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0fPuF2e7iOo1b21J6QU3FiE/LQP0O3eQZwC+TJT/BxMezLiEjfKVYSzg3Dkqyv38fuPCkSTrG20uzuQdLfqb+Q==",
+  "dgSpecHash": "hC9BEfVFr2DRgcKtlcuqqi1zZC4chK/mUNsJh+8j6sf+Guvfqkn7IgVdIkW9KkqM9qlvgF1HO0RYonAXsaO86A==",
   "success": true,
   "projectFilePath": "C:\\Users\\peter\\Documents\\GitHub\\NET-RMSI_Bot\\SRC\\NET-RMSI_Bot\\NET-RMSI_Bot.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,8 @@
     "C:\\Users\\peter\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\system.text.json\\6.0.2\\system.text.json.6.0.2.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\peter\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "C:\\Users\\peter\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\yamldotnet\\8.1.2\\yamldotnet.8.1.2.nupkg.sha512"
   ],
   "logs": []
 }

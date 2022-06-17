@@ -316,6 +316,15 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "YamlDotNet/8.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/YamlDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/YamlDotNet.dll": {}
+        }
       }
     }
   },
@@ -1270,6 +1279,30 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "YamlDotNet/8.1.2": {
+      "sha512": "GlPKbb4l+91dyYVKV7UnJlr2CWooNNM1ayZWC90QAmlFPgbwSkfhgId7dGjTAHqkB84BZqjMSy5PlAYf1iejVA==",
+      "type": "package",
+      "path": "yamldotnet/8.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/YamlDotNet.dll",
+        "lib/net20/YamlDotNet.xml",
+        "lib/net35-client/YamlDotNet.dll",
+        "lib/net35-client/YamlDotNet.xml",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/netstandard1.3/YamlDotNet.dll",
+        "lib/netstandard1.3/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.8.1.2.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1283,7 +1316,8 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "Newtonsoft.Json >= 13.0.1",
       "System.IO.FileSystem >= 4.3.0",
-      "System.Text.Json >= 6.0.2"
+      "System.Text.Json >= 6.0.2",
+      "YamlDotNet >= 8.1.2"
     ]
   },
   "packageFolders": {
@@ -1369,6 +1403,10 @@
           "System.Text.Json": {
             "target": "Package",
             "version": "[6.0.2, )"
+          },
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[8.1.2, )"
           }
         },
         "imports": [

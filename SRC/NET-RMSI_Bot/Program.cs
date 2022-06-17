@@ -27,7 +27,7 @@ namespace NETRMSI_Bot
             client.MessageReceived += CommandHandler;
             client.Log += Log;
 
-            JsonSerialization.Config_Json();
+            YamlSerialization.Config_Json();
 
             //var token = File.ReadAllText("Token.txt");
             //var token = "NTExMTk5MzU3MjA3NTc2NTc4.W-hJgA.Bcs2Jf8Vzgqf_zvJNS0gaMROgHk";
@@ -36,7 +36,7 @@ namespace NETRMSI_Bot
 
 
 
-            await client.LoginAsync(TokenType.Bot, JsonSerialization.token);
+            await client.LoginAsync(TokenType.Bot, YamlSerialization.token);
             await client.StartAsync();
 
             // Block this task until the program is closed.

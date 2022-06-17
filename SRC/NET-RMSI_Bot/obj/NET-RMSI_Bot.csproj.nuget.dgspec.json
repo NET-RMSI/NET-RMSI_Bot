@@ -83,6 +83,10 @@
             "System.Text.Json": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
