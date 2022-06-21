@@ -23,20 +23,21 @@ namespace NETRMSI_Bot
         {
             var botconfig = new Yamlconfig.botconfig
             {
-                token = "Insert bot token here",
+                token = "insert bot token here",
             };
 
             var server_0 = new Yamlconfig.server_0
             {
-                name = "Name of server",
-                ipaddress = "Ipaddress of server",
+                hostname = "name of server",
+                ipaddress = "ipaddress of server",
             };
 
             if (File.Exists(yamlconfigfilename))
             {
                 using (StreamReader sr = new StreamReader(yamlconfigfilename))
                 {
-                     contents = sr.ReadToEnd();
+                     contents = sr.ReadLine();
+                    
                     
                 }
                 var input = new StringReader(contents);
@@ -59,11 +60,13 @@ namespace NETRMSI_Bot
                 
 
                 var serializer = new SerializerBuilder().Build();
-                var yaml = serializer.Serialize(botconfig);
+                var yaml_botconfig = serializer.Serialize(botconfig);
+                var yaml_server_0 = serializer.Serialize(server_0);
 
                 using (StreamWriter sw = new StreamWriter(yamlconfigfilename))
                 {
-                    sw.WriteLine(yaml);
+                    sw.WriteLine(yaml_botconfig);
+                    sw.WriteLine(yaml_server_0);
                 }
 
 

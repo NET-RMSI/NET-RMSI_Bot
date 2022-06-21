@@ -13,7 +13,7 @@ namespace NETRMSI_Bot
 
         public class server_0
         {
-            public string name { get; set; }
+            public string hostname { get; set; }
             public string ipaddress { get; set; }
         }
     }
