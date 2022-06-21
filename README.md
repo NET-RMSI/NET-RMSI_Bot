@@ -7,7 +7,3 @@ This is the main landing page for my DummyBot project; an open source server mon
 
 
 
-## About me 🏳️‍⚧️
-
-Female developer and a fulltime student, interested in creating software that I enjoy working on. Helping to further my learning in different coding languages and APIs.
-
