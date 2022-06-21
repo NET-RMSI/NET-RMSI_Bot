@@ -13,34 +13,48 @@ namespace NETRMSI_Bot
 
     public class YamlSerialization
     {
-        public static string cmd;
+        public static string contents;
         public static string token;
         public static string str_json_output;
         public static string yamlconfigfilename = "Config.yaml";
 
 
-        public static async void Config_Yaml()
+        public static void Config_Yaml()
         {
+            var botconfig = new Yamlconfig.botconfig
+            {
+                token = "Insert bot token here",
+            };
+
+            var server_0 = new Yamlconfig.server_0
+            {
+                name = "Name of server",
+                ipaddress = "Ipaddress of server",
+            };
+
             if (File.Exists(yamlconfigfilename))
             {
-                //deserialization code here
+                using (StreamReader sr = new StreamReader(yamlconfigfilename))
+                {
+                     contents = sr.ReadToEnd();
+                    
+                }
+                var input = new StringReader(contents);
 
+                var deserializer = new DeserializerBuilder().Build();
+                var botconfigcontents = deserializer.Deserialize<Yamlconfig.botconfig>(input);
+                token = botconfigcontents.token;
+                
+
+                
             }
 
             else
             {
-                using FileStream fs = new FileStream(yamlconfigfilename, FileMode.Create) ;
+                using FileStream fs = new FileStream(yamlconfigfilename, FileMode.Create);
+                fs.Dispose();
 
-                var botconfig = new Yamlconfig.botconfig
-                {
-                    token = "Test",
-                };
-
-                var server_0 = new Yamlconfig.server_0
-                {
-                    name = "Test",
-                    ipaddress = "Test",
-                };
+                
 
                 
 
@@ -51,20 +65,21 @@ namespace NETRMSI_Bot
                 {
                     sw.WriteLine(yaml);
                 }
-                
-                
-                
-                
+
+
+
+
 
                 if (File.Exists(yamlconfigfilename))
                 {
-                    Console.WriteLine("Config.json was created");
+                    Console.WriteLine("Config.YAML was created");
+                    Console.WriteLine("Please fill out the Config.YAML file with appropriate information");
                     Console.WriteLine("Press a key to exit");
                     Console.ReadKey();
 
                     Environment.Exit(0);
                 }
-
+                
 
 
                

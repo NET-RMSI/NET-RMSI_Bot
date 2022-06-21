@@ -29,8 +29,7 @@ namespace NETRMSI_Bot
 
             YamlSerialization.Config_Yaml();
 
-            //var token = File.ReadAllText("Token.txt");
-            //var token = "NTExMTk5MzU3MjA3NTc2NTc4.W-hJgA.Bcs2Jf8Vzgqf_zvJNS0gaMROgHk";
+            
             
 
 
